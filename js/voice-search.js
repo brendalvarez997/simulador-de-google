@@ -12,7 +12,7 @@ const voiceSearchModalOpen = ()=>{
 const voiceSearchModalClose = () =>{
 	voiceSearch.style.animation = "desaparecer 0.25s forwards";
 	setTimeout(()=>{
-	    voiceSearch.style.display = "none";
+	voiceSearch.style.display = "none";
 	},250)
 }
 
